@@ -1,9 +1,7 @@
 import * as React from 'react'
-import { render, cleanup } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 import When from './When'
-
-afterEach(cleanup)
 
 describe('When', () => {
   it('should return null if condition is equal false', () => {

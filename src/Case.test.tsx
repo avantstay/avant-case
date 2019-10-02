@@ -1,10 +1,8 @@
 import * as React from 'react'
-import { render, cleanup } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 import Case from './Case'
 import When from './When'
-
-afterEach(cleanup)
 
 describe('Case', () => {
   it('should render the first element found with When true', () => {
