@@ -7,7 +7,7 @@ A conditional rendering component to improve readability, the nomenclature is ba
 
 default: 
 
-```
+```jsx
 <Case>
     <When 
       is={} //boolean variable
@@ -22,7 +22,7 @@ default:
 
 non exclusive: 
 
-```
+```jsx
 <Case nonExclusive>
     ...
 </Case>
